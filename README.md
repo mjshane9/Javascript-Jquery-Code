@@ -363,6 +363,12 @@ const person=new Person();
 person.printMyName();
 
 
+
+
+//Object Program with SPREAD and REST operator
+
+
+
 var person={
   name:"Shayan",
   age:25
