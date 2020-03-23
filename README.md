@@ -361,3 +361,17 @@ class Person{
 
 const person=new Person();
 person.printMyName();
+
+
+var person={
+  name:"Shayan",
+  age:25
+}
+
+var newPerson={
+  ...person,
+  class:"4th year"
+}
+
+console.log(newPerson.age);
+
